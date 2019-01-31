@@ -4,7 +4,7 @@ export const storeProducts = [
   {
     id: 1,
     title: "Milk-1ltr",
-    img: "img/product-01.png",
+    img: "https://www.svasthlife.com/android/productimages/milk_new.png",
     price: 80,
     company: "Svasthlife",
     info:
@@ -16,7 +16,7 @@ export const storeProducts = [
   {
     id: 2,
     title: "Paneer-200g",
-    img: "img/product-02.png",
+    img: "https://www.svasthlife.com/android/productimages/cheese.png",
     price: 176,
     company: "Svasthlife",
     info:
@@ -28,7 +28,7 @@ export const storeProducts = [
   {
     id: 3,
     title: "Ghee-400g",
-    img: "img/product-03.png",
+    img: "https://www.svasthlife.com/android/productimages/ghee.png",
     price: 590,
     company: "Svasthlife",
     info:
@@ -40,7 +40,7 @@ export const storeProducts = [
   {
     id: 4,
     title: "Butter-300g",
-    img: "img/product-04.png",
+    img: "https://www.svasthlife.com/android/productimages/butter.png",
     price: 405,
     company: "Svasthlife",
     info:
@@ -52,7 +52,7 @@ export const storeProducts = [
   {
     id: 5,
     title: "Curd-400g",
-    img: "img/product-05.png",
+    img: "https://www.svasthlife.com/android/productimages/curd.png",
     price: 40,
     company: "Svasthlife",
     info:
@@ -64,7 +64,7 @@ export const storeProducts = [
   {
     id: 6,
     title: "Tea-150g",
-    img: "img/product-06.png",
+    img: "https://www.svasthlife.com/android/productimages/tea.png",
     price: 180,
     company: "Svasthlife",
     info:
@@ -76,7 +76,7 @@ export const storeProducts = [
   {
     id: 7,
     title: "Idly Batter-700g",
-    img: "img/product-07.png",
+    img: "https://www.svasthlife.com/android/productimages/idly.png",
     price: 70,
     company: "Svasthlife",
     info:
@@ -88,7 +88,7 @@ export const storeProducts = [
   {
     id: 8,
     title: "Sprouts-100g",
-    img: "img/product-08.png",
+    img: "https://www.svasthlife.com/android/productimages/sprouts.png",
     price: 35,
     company: "Svasthlife",
     info:
@@ -102,7 +102,7 @@ export const storeProducts = [
 export const detailProduct = {
   id: 1,
   title: "Milk-1ltr",
-  img: "img/product-01.png",
+  img: "https://www.svasthlife.com/android/productimages/milk_new.png",
   price: 80,
   company: "Svasthlife",
   info:
