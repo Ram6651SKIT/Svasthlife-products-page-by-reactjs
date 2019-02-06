@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Svasthlife-products-page-by-reactjs/precache-manifest.05e783ef7b5d73838388ed10fc796192.js"
+  "/Svasthlife-products-page-by-reactjs/precache-manifest.a572931af42cf51aa280b87110282f93.js"
 );
 
 workbox.clientsClaim();
