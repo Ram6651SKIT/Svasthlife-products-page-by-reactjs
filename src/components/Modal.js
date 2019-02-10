@@ -1,8 +1,8 @@
-import React ,{Component} from 'react';
+import React,{Component} from 'react';
 import styled from 'styled-components';
-import {ProductConsumer} from '../context';
-import {ButtonContainer} from './Button';
-import {Link} from 'react-router-dom';
+import { ProductConsumer } from '../context';
+import { ButtonContainer } from './Button';
+import { Link } from 'react-router-dom';
 
 
 
@@ -10,9 +10,8 @@ export default class Modal extends Component {
     render(){
         return (
             <ProductConsumer>
-                {
-                    (value) =>{
-                        const {modalOpen,closeModal}=value;
+                {(value) =>{
+                        const {modalOpen, closeModal}=value;
                         const {img,title,price}=value.modalProduct;
                         if(!modalOpen){
                             return null;
@@ -28,7 +27,17 @@ export default class Modal extends Component {
                           <img src={img} className="img-fluid" alt="product" />
                           <h5>{title}</h5>
                           <h5 className="text-muted">Price: &#8377;{price}</h5>
-                          
+                          <Link to='/'>
+                          <ButtonContainer onClick = {()=> closeModal()}>
+                           store
+                          </ButtonContainer>
+                          </Link>
+
+                          <Link to='/cart'>
+                          <ButtonContainer cart onClick = {()=> closeModal()}>
+                           go to Cart
+                          </ButtonContainer>
+                          </Link>
                           
                           </div>
                           </div>
