@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6501c2bc5a003ffeed5f",
+    "revision": "fd38065cf5f9f0c852a2",
     "url": "/Svasthlife-products-page-by-reactjs/static/css/main.c7fcd778.chunk.css"
   },
   {
-    "revision": "6501c2bc5a003ffeed5f",
-    "url": "/Svasthlife-products-page-by-reactjs/static/js/main.6501c2bc.chunk.js"
+    "revision": "fd38065cf5f9f0c852a2",
+    "url": "/Svasthlife-products-page-by-reactjs/static/js/main.fd38065c.chunk.js"
   },
   {
     "revision": "f8395f77a480c69ad1c7",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Svasthlife-products-page-by-reactjs/static/media/logo.9f7e506d.svg"
   },
   {
-    "revision": "e553c29b13870d507a802b50c8a9ce33",
+    "revision": "2f9bfeb36b86ca27fdedd43760940a66",
     "url": "/Svasthlife-products-page-by-reactjs/index.html"
   }
 ];
