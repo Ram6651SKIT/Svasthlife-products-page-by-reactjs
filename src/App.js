@@ -19,7 +19,7 @@ class App extends Component {
       <Route path='/details' component={Details}/>
       <Route path='/cart' component={Cart}/>
       <Route exact path='/' component={ProductList}/>
-      <Route component={ProductList}/>
+      
       <Route component={Default}/>
       </Switch>
       <Modal/>
