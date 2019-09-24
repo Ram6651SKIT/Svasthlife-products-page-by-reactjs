@@ -41,7 +41,7 @@ export default class Details extends Component{
 						<strong>Price : <span>&#8377;</span>{price}</strong>
 						</h4>
                           
-						  <p className="text-capitalize font-weight-bold mt-3 mb-0">Some info about Product::</p>
+						  <p className="text-capitalize font-weight-bold mt-3 mb-0"> info about Product::</p>
                           
 						  <p className="text-muted lead">{info}</p>
 						  <div>
